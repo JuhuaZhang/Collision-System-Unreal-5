@@ -18,7 +18,7 @@
 
 | Real World Forwarding            | Spin Forwarding                                              |
 | -------------------------------- | ------------------------------------------------------------ |
-| ![](img/Collision_System0.gif) | <img src="img/Collision_System1.gif" style="zoom:150%;" /> |
+| ![](img/Collision_System0.gif) | <img src="img/Collision_System1.gif" style="zoom:180%;" /> |
 
 ### object management
 
@@ -28,14 +28,14 @@
 - Fire-working Spawning
 - Continuous Spawning
 
-<video src="./img/Object Management.mp4" width="800px" height="600px" controls="controls"></video>
+<video src="img/Object Management.mp4" width="800px" height="600px" controls="controls"></video>
 
 #### Control
 
 - Speed Control
 - Location Control
 
-<video src="./img/Object control.mp4" width="800px" height="600px" controls="controls"></video>
+<video src="img/Object control.mp4" width="800px" height="600px" controls="controls"></video>
 
 ## Performance Analysis
 
