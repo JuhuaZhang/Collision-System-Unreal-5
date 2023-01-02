@@ -18,7 +18,7 @@
 
 | Real World Forwarding            | Spin Forwarding                                              |
 | -------------------------------- | ------------------------------------------------------------ |
-| ![](img/Collision_System0.gif) | <img src="img/Collision_System1.gif" style="zoom:180%;" /> |
+| <img src="img/Collision_System0.gif" width="400px" /> | <img src="img/Collision_System1.gif" width="400px" /> |
 
 ### object management
 
@@ -63,7 +63,7 @@
 
 30 fps @ 1500 cubes
 
-![](img%5CCollision_System2.png)
+![](img/Collision_System2.png)
 
 | Procedure | Time (ms) |
 | :-------- | --------- |
@@ -76,7 +76,7 @@
 
 How to make a frame
 
-![](img%5CCollision_System3.png)
+![](img/Collision_System3.png)
 
 Ref: Profiling and Optimization in UE4,  https://youtu.be/EbXakIuZPFo
 
@@ -84,7 +84,7 @@ Ref: Profiling and Optimization in UE4,  https://youtu.be/EbXakIuZPFo
 
 #### Game Operation: In one Loop
 
-![](img%5CCollision_System5.png)
+![](img/Collision_System5.png)
 
 1499: MyBoxComp, name of the custom Movement Component
 
@@ -92,7 +92,7 @@ Ref: Profiling and Optimization in UE4,  https://youtu.be/EbXakIuZPFo
 
 136: OnHit, count on small portion
 
-![](img%5CCollision_System6.png)
+![](img/Collision_System6.png)
 
 Solution: reduce the Complexity of MyBoxComp
 
@@ -110,7 +110,7 @@ Solution: reduce the Complexity of MyBoxComp
 
 #### Results: Reaches 1885 cubes @ 30 fps
 
-![](img%5CCollision_System7.png)
+![](img/Collision_System7.png)
 
 ## Future Goal
 
@@ -126,7 +126,7 @@ When there’s no cubes in the view,
 
 GPU should not render those cubes
 
-![](img%5CCollision_System8.png)
+![](img/Collision_System8.png)
 
 ## Key Techniques
 
@@ -137,7 +137,11 @@ GPU should not render those cubes
 - MyWorld->SpawnActor: spawn an actor
 
 - TActorIterator\<AActor\> ActorItr: Iteration
+
 - ActorItr->GetClass(): Compare class
+
 - Component Hierarchy: Root Comp, Static Mesh Comp, Updated Comp …
+
 - Unreal Insights and stat commands
+
 - And so on …
