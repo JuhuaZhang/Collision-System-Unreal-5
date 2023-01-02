@@ -28,14 +28,14 @@
 - Fire-working Spawning
 - Continuous Spawning
 
-<video src="img/Object Management.mp4" width="800px" height="600px" controls="controls"></video>
+<video src="img/Object Management.mp4" width="800px" controls="controls"></video>
 
 #### Control
 
 - Speed Control
 - Location Control
 
-<video src="img/Object control.mp4" width="800px" height="600px" controls="controls"></video>
+<video src="img/Object control.mp4" width="800px" controls="controls"></video>
 
 ## Performance Analysis
 
@@ -131,17 +131,10 @@ GPU should not render those cubes
 ## Key Techniques
 
 - Tick & TickComponent: where object updates
-
 - OnHit: when hit happens
-
 - MyWorld->SpawnActor: spawn an actor
-
 - TActorIterator\<AActor\> ActorItr: Iteration
-
 - ActorItr->GetClass(): Compare class
-
 - Component Hierarchy: Root Comp, Static Mesh Comp, Updated Comp …
-
 - Unreal Insights and stat commands
-
 - And so on …
