@@ -18,7 +18,7 @@
 
 | Real World Forwarding            | Spin Forwarding                                              |
 | -------------------------------- | ------------------------------------------------------------ |
-| ![](img%5CCollision_System0.gif) | <img src="img%5CCollision_System1.gif" style="zoom:150%;" /> |
+| ![](img/Collision_System0.gif) | <img src="img/Collision_System1.gif" style="zoom:150%;" /> |
 
 ### object management
 
